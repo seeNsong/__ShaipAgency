@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShaipAgency.Areas\ShaipAgency.Areas.csproj" />
+    <ProjectReference Include="..\ShaipAgency.Data\ShaipAgency.Data.csproj" />
+    <ProjectReference Include="..\ShaipAgency.Models\ShaipAgency.Models.csproj" />
+  </ItemGroup>
+
 </Project>
