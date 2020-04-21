@@ -8,5 +8,11 @@
 - ShaipAgency.ServerSide.Admin  : 관리자화면
 
 ## 2. 로그인 기능 추가
-- ShaipAgency.Areas             : Staffolded ASP.Net Core Identity 추가
-- ShaipAgency.Data              : Nuget 추가 
+# ShaipAgency.Areas             : Staffolded ASP.Net Core Identity 추가
+# ShaipAgency.ServerSide
+- Nuget 설치 : Microsoft.EntityFrameworkCore.Design
+# ShaipAgetcy.Data
+- Nuget 설치Microsoft.EntityFrameworkCore.SqlServer
+- DB Migration 생성 : Add-Migration InitialCreate
+- DB Migration : Update-Database
+
