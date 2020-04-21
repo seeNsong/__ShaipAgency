@@ -12,12 +12,19 @@
 ### Identity Project 생성
 - ShaipAgency.Areas             : 가입,로그인/아웃,정보수정 : ASP.Net Core Web Application
 - Staffolded ASP.Net Core Identity 추가
-### ShaipAgency.ServerSide
+### ShaipAgency.ServerSide 변경
 - Nuget 설치 : Microsoft.EntityFrameworkCore.Design
-### ShaipAgetcy.Data
+### ShaipAgetcy.Data 변경
 - Nuget 설치Microsoft.EntityFrameworkCore.SqlServer
 - DB Migration 생성 : Add-Migration InitialCreate
 - DB Migration : Update-Database
 
 ## 3. User Field 확장 
-### ApplicationUser 생성
+
+### LoginDisplay 배치
+
+### ShaipAgency.Models 변경
+- ApplicationUser 생성        : IdentityUser 상속
+### ShaipAgency.ServerSide 변경
+- Startup.cs                  : app.UseAuthorization() 추가
+
