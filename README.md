@@ -3,13 +3,15 @@
 
 ## 1. 솔루션 뼈대 작성
 ### Project 생성
-- ShaipAgency.Data              : 데이터 서비스 .net Standard 2.1
-- ShaipAgency.Models            : 모델          .net Standard 2.1
-- ShaipAgency.ServerSide        : 이용자화면     .Blazor Server Side Templates
-- ShaipAgency.ServerSide.Admin  : 관리자화면     .Blazor Server Side Templates
+- ShaipAgency.Data              : 데이터 서비스  .Net Standard 2.1 (Class Templates)
+- ShaipAgency.Models            : 모델          Class Library .Net Standard 2.1
+- ShaipAgency.ServerSide        : 이용자화면     ASP.Net Core 3.1 (Blazor Server Side Templates)
+- ShaipAgency.ServerSide.Admin  : 관리자화면     ASP.Net Core 3.1 (Blazor Server Side Templates)
 
 ## 2. 로그인 기능 추가
-### ShaipAgency.Areas           : 가입,로그인/아웃,정보수정             : Staffolded ASP.Net Core Identity 추가
+### Identity Project 생성
+- ShaipAgency.Areas             : 가입,로그인/아웃,정보수정 : ASP.Net Core Web Application
+- Staffolded ASP.Net Core Identity 추가
 ### ShaipAgency.ServerSide
 - Nuget 설치 : Microsoft.EntityFrameworkCore.Design
 ### ShaipAgetcy.Data
@@ -17,3 +19,5 @@
 - DB Migration 생성 : Add-Migration InitialCreate
 - DB Migration : Update-Database
 
+## 3. User Field 확장 
+### ApplicationUser 생성
