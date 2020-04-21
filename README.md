@@ -19,12 +19,7 @@
 - DB Migration 생성 : Add-Migration InitialCreate
 - DB Migration : Update-Database
 
-## 3. User Field 확장 
-
-### LoginDisplay 배치
-
-### ShaipAgency.Models 변경
-- ApplicationUser 생성        : IdentityUser 상속
-### ShaipAgency.ServerSide 변경
-- Startup.cs                  : app.UseAuthorization() 추가
+# 중단 2020.04.22
+- LoginDisplay 배치 중 로그인 및 로그인, 회원가입, 회원정보 수정 안됨
+- ShaipAgency.Areas 와 ShaipAgency.ServerSide 의 로그인 정보를 공유못하는 것 같음
 
